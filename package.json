@@ -1,0 +1,25 @@
+{
+  "name": "quizmaster-pro",
+  "version": "1.0.0",
+  "description": "Professional Desktop Quiz Application built with Electron.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "electron",
+    "quiz",
+    "desktop-app",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "QuizMaster Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.0"
+  }
+}
